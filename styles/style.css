@@ -8,10 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.w {
-border: 1px solid red;
-}
- /* блок header */
+
  .header {
   height: 100vh;
   min-height: 600px;
@@ -24,7 +21,7 @@ border: 1px solid red;
   width: 183px;
   height: 32px; 
 }
-.logo__header_place {
+.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
@@ -36,8 +33,7 @@ border: 1px solid red;
   font-size: 102px;
   z-index: 2;
   align-self: center;
-  position: absolute;
-  left: 64px;
+  margin: 0 0 0 64px;
 }
 .header__subtitle {
   width: 388px;
@@ -45,6 +41,7 @@ border: 1px solid red;
   font-size: 18px;
   z-index: 2;
   position: absolute;
+  margin: 0;
   bottom: 30px;
   left: 64px;
 }
@@ -175,7 +172,7 @@ border: 1px solid red;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 70px auto;
+  margin: 70px 0 0 0;
   text-align: center;
   z-index: 2;
 }
@@ -208,15 +205,15 @@ border: 1px solid red;
   overflow: hidden;
   background:  #1f1f1f;
 }
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: white;
   z-index: 3;
 }
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 3;
 }
-.table__theme_dark {
+.table_theme_dark {
   color: white;
   z-index: 3;
 }
@@ -248,13 +245,15 @@ border: 1px solid red;
   margin-top: 60px;
   margin-bottom: 40px;
 }
-.footer__column_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
-.logo__footer_place {
+.logo_place_footer {
   width: 183px;
   height: 35px;  
 }
