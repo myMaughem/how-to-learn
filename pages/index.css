@@ -1,0 +1,50 @@
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/__title.css);
+@import url(../blocks/header/__subtitle/__subtitle.css);
+@import url(../blocks/header/__link/__link.css);
+@import url(../blocks/header/__main-illustration/__main-illustration.css);
+@import url(../blocks/header/__square-pic/__square-pic.css);
+@import url(../blocks/header/logo/logo.css);
+@import url(../blocks/header/logo/_place/_header.css);
+
+
+@import url(../blocks/content/description/description.css);
+@import url(../blocks/content/description/two-columns/two-columns.css);
+@import url(../blocks/content/description/two-columns/__brief/__brief.css);
+@import url(../blocks/content/description/two-columns/__brief/__main-text.css);
+@import url(../blocks/content/description/two-columns/__brief/__paragraph.css);
+@import url(../blocks/content/description/two-columns/__brief/__span-accent.css);
+
+@import url(../blocks/content/digits/digits.css);
+@import url(../blocks/content/digits/section-title/section-title.css);
+@import url(../blocks/content/digits/section-subtitle/section-subtitle.css);
+@import url(../blocks/content/digits/table/table.css);
+@import url(../blocks/content/digits/table/__cell.css);
+@import url(../blocks/content/digits/table/__heading.css);
+@import url(../blocks/content/digits/table/__text.css);
+
+@import url(../blocks/content/feynman/feynman.css);
+@import url(../blocks/content/feynman/__title.css);
+@import url(../blocks/content/feynman/__subtitle.css);
+@import url(../blocks/content/feynman/__photo.css);
+@import url(../blocks/content/feynman/__link.css);
+
+@import url(../blocks/content/kaufman/kaufman.css);
+@import url(../blocks/content/kaufman/__triangle.css);
+@import url(../blocks/content/digits/section-title/_theme/_dark.css);
+@import url(../blocks/content/digits/section-subtitle/_theme/_dark.css);
+@import url(../blocks/content/digits/table/_theme_dark.css);
+@import url(../blocks/content/digits/table/__cell_theme/_dark.css);
+
+@import url(../blocks/footer/foter.css);
+@import url(../blocks/footer/__columns.css);
+@import url(../blocks/footer/__column.css);
+@import url(../blocks/footer/__column-heading.css);
+@import url(../blocks/footer/__column-link.css);
+@import url(../blocks/footer/__column-links.css);
+@import url(../blocks/footer/__social-icon.css);
+@import url(../blocks/footer/__author.css);
+@import url(../blocks/footer/__column_content/_copyright.css);
+@import url(../blocks/header/logo/_place/_footer.css);
