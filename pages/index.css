@@ -52,7 +52,7 @@
 @import url(../blocks/header/logo/_place/_footer.css);
 
 /* rotation */
-@import url(../blocks/rotation/square-pic_rotation.css);
+@import url(../blocks/rotation/pic_rotation.css);
 
 @import url(../blocks/content/techniques/techniques.css);
 @import url(../blocks/content/techniques/cards/cards.css);
