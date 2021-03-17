@@ -8,6 +8,8 @@
 @import url(../blocks/header/__link/__link.css);
 @import url(../blocks/header/__main-illustration/__main-illustration.css);
 @import url(../blocks/header/__square-pic/__square-pic.css);
+/* rotation */
+@import url(../blocks/rotation/pic_rotation.css);
 @import url(../blocks/header/logo/logo.css);
 @import url(../blocks/header/logo/_place/_header.css);
 
@@ -51,8 +53,6 @@
 @import url(../blocks/footer/__column_content/_copyright.css);
 @import url(../blocks/header/logo/_place/_footer.css);
 
-/* rotation */
-@import url(../blocks/rotation/pic_rotation.css);
 
 @import url(../blocks/content/techniques/techniques.css);
 @import url(../blocks/content/techniques/cards/cards.css);

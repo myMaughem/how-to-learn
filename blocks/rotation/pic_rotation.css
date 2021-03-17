@@ -1,8 +1,4 @@
-
-.pic_rotation {
-  animation: pic_rotation 20s linear infinite;
-}
-@keyframes pic_rotation {
+@keyframes blue_rotation {
   from {
     transform: rotate(0deg);
   }
