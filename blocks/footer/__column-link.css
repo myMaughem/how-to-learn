@@ -4,3 +4,7 @@
     font-size: 18px;
     color: white;
   }
+.footer__column-link:hover {
+  opacity: 0.33;
+  transition: 1s;
+}
