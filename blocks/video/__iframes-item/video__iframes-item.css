@@ -1,0 +1,6 @@
+.video__iframes-item {
+    margin: 0;
+}
+.video__iframes-item:first-child {
+    margin-right: 20px;
+}
